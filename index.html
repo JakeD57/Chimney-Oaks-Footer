@@ -1,0 +1,173 @@
+<html>
+
+<head>
+    
+<title>Olympia Footer</title>
+<meta http-equiv="content-type" content ="text/hmtl; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Duru+Sans&display=swap');
+    
+
+body {
+    margin: 0;
+}
+
+    .container-1 {
+        display: flex;
+        justify-content: center;
+        background-color:#192327;
+        align-items: center;
+        padding: 80px;
+        
+    } 
+    
+    .container-1 div {
+        padding: 30px;
+    }
+    
+    .white-text {
+        color: #ffffff;
+        font-size: 1.75rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .short-text {
+        max-width: 250px;
+        line-height: 100%;
+        
+        
+    }
+    
+    .h2-white {
+        color:#ffffff;
+        font-size: 2.188rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+  
+    
+     .link {
+        text-decoration: none;
+         display: block;
+         margin-top: 1.875rem;
+         transition: color 0.3s;
+         color:#c99d6b;
+         font-family: 'Duru Sans', sans-serif;
+         
+        }
+    .link:hover {
+        color: #ffffff;
+        
+    }
+    
+    .gold-text {
+        line-height: 60%;
+        color:#c99d6b;
+        font-family: 'Duru Sans', sans-serif;
+    }
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+        width: 225px;
+        
+        
+        
+      
+    }
+    
+    /* small tablets to big tablets : from 768px to 1032px */
+    @media only screen and (max-width: 1023px) {
+        .container-1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            
+            
+            
+        }
+        
+        .logo {
+            width: 500px;
+        }
+        
+        .short-text {
+        max-width:420px;
+        line-height: 100%;
+        
+        
+    }
+        
+        
+    }
+        
+    /* small phones to small tablets: from 481px to 767px */
+    @media only screen and (max-width: 767px) {
+        .container-1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            
+        }
+        
+        .logo {
+            width: 500px;
+        }
+        
+         .gold-text {
+        line-height: 100%;
+        
+    }
+        
+        
+      
+        
+    }
+   
+   
+    
+</style>    
+    
+</head>
+
+
+
+<body>
+    
+    
+<div class="container-1">
+    <div class="box-1">
+        <img class="logo" src="images/Olympia-Country-Club-Logo-Trimmed-Gold.png" alt="tee-it-up-logo">
+    </div>
+    <div class="box-2">
+        <h2 class="h2-white">Olympia Country &amp; Golf Club</h2>
+        <p class="gold-text">3636 Country Club Dr NW</p>
+        <p class="gold-text">Olympia, WA 98502</p>
+        <a class="link" href="tel:360-886-7121" target="_blank">Tel: 360-866-7121</a>
+    </div>
+    <div class="box-3">
+        <p class="white-text short-text">Property acess is limited to members and their registered guests only</p>
+    </div>
+    
+    
+    
+</div>
+    
+    
+    
+    
+    
+</body>
+
+
+
+
+
+
+</html>
